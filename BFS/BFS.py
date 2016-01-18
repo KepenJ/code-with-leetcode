@@ -41,7 +41,7 @@ class Node:
         return Node(Va.x+Vb.x,Va.y+Vb.y,max(Va.value,Vb.value))
 
 def isValid (V):
-    if ((V.x >= 0 and V.y >= 0) and (V.x < 5 and V.y < 5)) and V.value == 0:
+    if ((V.x >= 0 and V.x <= 4) and (V.y >= 0 and V.y <= 4)) and V.value == 0:
         return True
     else:
         return False
@@ -59,17 +59,19 @@ def BFS(Vs,Ve,outMaze):
     Vs.hadVisited = True
     visitied[0][0] = Vs
     distination = (Node(0,1,0),Node(1,0,0),Node(0,-1,0),Node(-1,0,0))
+    k = 0
     while Q.empty() != True:
         Vn = Q.get()
         for i in range(0,4):
             Vw = Node.NodeAdd(Vn,distination[i])
             if  isEndNote(Vw,Ve):
                 print("Find the way!")
-
+                print(str(k))
                 return True
             if  isValid(Vw):
                 Vv = visitied[Vw.x][Vw.y]
                 if  Vv.hadVisited != True:
+                    k += 1
                     Q.put(Vw)
                     Vw.hadVisited = True
                     visitied[Vw.x][Vw.y] = Vw
@@ -103,4 +105,4 @@ def changeIntToNode():
     return outMaze
 
 if  __name__ == '__main__':
-    BFS(Node(0,0),Node(4,4,),changeIntToNode())
+    BFS(Node(0,0),Node(4,2,),changeIntToNode())
