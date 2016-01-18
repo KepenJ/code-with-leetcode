@@ -79,17 +79,6 @@ def BFS(Vs,Ve,outMaze):
                         Vw.hadVisited = True
                         visitied[Vw.x][Vw.y] = Vw
 
-                        # printString = str()
-                        # for i in range(0,len(visitied)):
-                        #     Varray = visitied[i]
-                        #     for j in range(0,len(Varray)):
-                        #         V = Varray[j]
-                        #         printString += str(V.printSelf()) + ' '
-                        #     printString += '\n'
-                        # print("Step:\n")
-                        # print(printString)
-
-
     else:
         print("WTF! No result!")
         return False
