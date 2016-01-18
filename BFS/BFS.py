@@ -61,12 +61,14 @@ def BFS(Vs,Ve,outMaze):
     visitied = outMaze
     Vs.hadVisited = True
     visitied[0][0] = Vs
-    distination = (Node(0,1,0),Node(1,0,0),Node(0,-1,0),Node(-1,0,0))
+    distination = (Node(1,0,0),Node(0,1,0),Node(-1,0,0),Node(0,-1,0))
     while Q.empty() != True:
         Vn = Q.get()
         for i in range(0,4):
             Vw = Node.NodeAdd(Vn,distination[i])
             if  isEndNote(Vw,Ve):
+                Vw.hadVisited = True
+                visitied[Vw.x][Vw.y] = Vw
                 print("Find the end point (%d,%d)!"%(Vw.x,Vw.y))
                 return True
             if  isValid(Vw):
@@ -77,21 +79,20 @@ def BFS(Vs,Ve,outMaze):
                         Vw.hadVisited = True
                         visitied[Vw.x][Vw.y] = Vw
 
-                        printString = str()
-                        for i in range(0,len(visitied)):
-                            Varray = visitied[i]
-                            for j in range(0,len(Varray)):
-                                V = Varray[j]
-                                printString += str(V.printSelf()) + ' '
-                            printString += '\n'
-                        print("Step:\n")
-                        print(printString)
+                        # printString = str()
+                        # for i in range(0,len(visitied)):
+                        #     Varray = visitied[i]
+                        #     for j in range(0,len(Varray)):
+                        #         V = Varray[j]
+                        #         printString += str(V.printSelf()) + ' '
+                        #     printString += '\n'
+                        # print("Step:\n")
+                        # print(printString)
 
 
     else:
         print("WTF! No result!")
         return False
-
 def changeIntToNode():
     maze = (
         0, 1, 0, 0, 0,
