@@ -57,55 +57,6 @@ def isValid (V):
     else:
         return False
 
-def isEndNote(Va,Vb):
-    if  Va.x == Vb.x and Va.y == Vb.y:
-        return True
-    else:
-        return False
-
-def BFS(Vs,Ve,outMaze):
-    Q = Queue()
-    Q.put(Vs)
-    visitied = outMaze
-    Vs.hadVisited = True
-    visitied[0][0] = Vs
-    distination = (Node(1,0,0),Node(0,1,0),Node(-1,0,0),Node(0,-1,0))
-    count = 1
-    while Q.empty() != True:
-        Vn = Q.get()
-        for i in range(0,4):
-            Vw = Node.NodeAdd(Vn,distination[i])
-            if  isEndNote(Vw,Ve):
-                Vw.hadVisited = True
-                Vw.count = count
-                visitied[Vw.x][Vw.y] = Vw
-                print("The way is:")
-                print("(%d,%d)"%(Ve.x,Ve.y))
-                showWayNums(Vw,Vs,visitied)
-                # printString = str()
-                # for i in range(0,len(outMaze)):
-                #     Varray = outMaze[i]
-                #     for j in range(0,len(Varray)):
-                #         V = Varray[j]
-                #         printString += str(V.printSelf()) + '   '
-                #     printString += '\n'
-                # print("Step:\n")
-                # print(printString)
-                return True
-            if  isValid(Vw):
-                Vw.isWall = visitied[Vw.x][Vw.y].isWall
-                if Vw.isWall != True:
-                    if  visitied[Vw.x][Vw.y].hadVisited != True:
-                        Q.put(Vw)
-                        Vw.hadVisited = True
-                        Vw.count = count
-                        visitied[Vw.x][Vw.y] = Vw
-                        count += 1
-
-    else:
-        print("WTF! No result!")
-        return False
-
 def showWayNums(Vs,Ve,visitied):
     Q = Queue()
     Q.put(Vs)
@@ -152,6 +103,47 @@ def changeIntToNode():
     print("My maze:\n")
     print(printString)
     return outMaze
+
+def isEndNote(Va,Vb):
+    if  Va.x == Vb.x and Va.y == Vb.y:
+        return True
+    else:
+        return False
+
+def BFS(Vs,Ve,outMaze):
+    Q = Queue()
+    Q.put(Vs)
+    visitied = outMaze
+    Vs.hadVisited = True
+    visitied[0][0] = Vs
+    distination = (Node(1,0,0),Node(0,1,0),Node(-1,0,0),Node(0,-1,0))
+    count = 1
+    while Q.empty() != True:
+        Vn = Q.get()
+        for i in range(0,4):
+            Vw = Node.NodeAdd(Vn,distination[i])
+            if  isEndNote(Vw,Ve):
+                Vw.hadVisited = True
+                Vw.count = count
+                visitied[Vw.x][Vw.y] = Vw
+                print("The way is:")
+                print("(%d,%d)"%(Ve.x,Ve.y))
+                showWayNums(Vw,Vs,visitied)
+
+                return True
+            if  isValid(Vw):
+                Vw.isWall = visitied[Vw.x][Vw.y].isWall
+                if Vw.isWall != True:
+                    if  visitied[Vw.x][Vw.y].hadVisited != True:
+                        Q.put(Vw)
+                        Vw.hadVisited = True
+                        Vw.count = count
+                        visitied[Vw.x][Vw.y] = Vw
+                        count += 1
+
+    else:
+        print("WTF! No result!")
+        return False
 
 if  __name__ == '__main__':
     BFS(Node(0,0),Node(4,4,),changeIntToNode())
