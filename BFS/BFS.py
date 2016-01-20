@@ -37,12 +37,13 @@ class Node:
             self.isWall = False
         else:
             self.isWall = True
+        self.count = 0
     def printSelf(self):
-        if  self.hadVisited == True:
+        if  self.isWall == True:
             return "X"
         else:
-            if  self.isWall == True:
-                return 1
+            if  self.hadVisited == True:
+                return self.count
             else:
                 return 0
 
@@ -69,14 +70,27 @@ def BFS(Vs,Ve,outMaze):
     Vs.hadVisited = True
     visitied[0][0] = Vs
     distination = (Node(1,0,0),Node(0,1,0),Node(-1,0,0),Node(0,-1,0))
+    count = 1
     while Q.empty() != True:
         Vn = Q.get()
         for i in range(0,4):
             Vw = Node.NodeAdd(Vn,distination[i])
             if  isEndNote(Vw,Ve):
                 Vw.hadVisited = True
+                Vw.count = count
                 visitied[Vw.x][Vw.y] = Vw
-                print("Find the end point (%d,%d)!"%(Vw.x,Vw.y))
+                print("The way is:")
+                print("(%d,%d)"%(Ve.x,Ve.y))
+                showWayNums(Vw,Vs,visitied)
+                # printString = str()
+                # for i in range(0,len(outMaze)):
+                #     Varray = outMaze[i]
+                #     for j in range(0,len(Varray)):
+                #         V = Varray[j]
+                #         printString += str(V.printSelf()) + '   '
+                #     printString += '\n'
+                # print("Step:\n")
+                # print(printString)
                 return True
             if  isValid(Vw):
                 Vw.isWall = visitied[Vw.x][Vw.y].isWall
@@ -84,21 +98,36 @@ def BFS(Vs,Ve,outMaze):
                     if  visitied[Vw.x][Vw.y].hadVisited != True:
                         Q.put(Vw)
                         Vw.hadVisited = True
+                        Vw.count = count
                         visitied[Vw.x][Vw.y] = Vw
-
-                        printString = str()
-                        for i in range(0,len(outMaze)):
-                            Varray = outMaze[i]
-                            for j in range(0,len(Varray)):
-                                V = Varray[j]
-                                printString += str(V.printSelf()) + ' '
-                            printString += '\n'
-                        print("Step:\n")
-                        print(printString)
+                        count += 1
 
     else:
         print("WTF! No result!")
         return False
+
+def showWayNums(Vs,Ve,visitied):
+    Q = Queue()
+    Q.put(Vs)
+    distination = (Node(1,0,0),Node(0,1,0),Node(-1,0,0),Node(0,-1,0))
+    while Q.empty() != True:
+        Vn = Q.get()
+        for i in range(0,4):
+            Vw = Node.NodeAdd(Vn,distination[i])
+            if  isEndNote(Vw,Ve):
+                print("(%d,%d)"%(Ve.x,Ve.y))
+                return True
+            if  isValid(Vw):
+                Vp = visitied[Vw.x][Vw.y]
+                if Vp.isWall != True:
+                    if  Vp.hadVisited == True and Vp.count < Vn.count:
+                        Q.put(Vp)
+                        print("(%d,%d)"%(Vp.x,Vp.y))
+    else:
+        print("WTF!")
+        return False
+
+
 def changeIntToNode():
     maze = (
         0, 1, 0, 0, 0,
