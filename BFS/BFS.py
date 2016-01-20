@@ -37,7 +37,6 @@ class Node:
             self.isWall = False
         else:
             self.isWall = True
-        self.value = 0
     def printSelf(self):
         if  self.hadVisited == True:
             return "X"
@@ -70,7 +69,6 @@ def BFS(Vs,Ve,outMaze):
     Vs.hadVisited = True
     visitied[0][0] = Vs
     distination = (Node(1,0,0),Node(0,1,0),Node(-1,0,0),Node(0,-1,0))
-    count = 0
     while Q.empty() != True:
         Vn = Q.get()
         for i in range(0,4):
@@ -86,9 +84,7 @@ def BFS(Vs,Ve,outMaze):
                     if  visitied[Vw.x][Vw.y].hadVisited != True:
                         Q.put(Vw)
                         Vw.hadVisited = True
-                        Vw.value = count
                         visitied[Vw.x][Vw.y] = Vw
-                        count += 1
 
                         printString = str()
                         for i in range(0,len(outMaze)):
