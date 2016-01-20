@@ -33,15 +33,23 @@ class Node:
         self.x = x
         self.y = y
         self.hadVisited = False
-        self.value = value
+        if  value == 0:
+            self.isWall = False
+        else:
+            self.isWall = True
+        self.value = 0
     def printSelf(self):
         if  self.hadVisited == True:
             return "X"
         else:
-            return (self.value)
+            if  self.isWall == True:
+                return 1
+            else:
+                return 0
+
     @classmethod
     def NodeAdd(cls,Va,Vb):
-        return Node(Va.x+Vb.x,Va.y+Vb.y,max(Va.value,Vb.value))
+        return Node(Va.x+Vb.x,Va.y+Vb.y,max(Va.isWall,Vb.isWall))
 
 def isValid (V):
     if (V.x >= 0 and V.x <= 4) and (V.y >= 0 and V.y <= 4):
@@ -62,6 +70,7 @@ def BFS(Vs,Ve,outMaze):
     Vs.hadVisited = True
     visitied[0][0] = Vs
     distination = (Node(1,0,0),Node(0,1,0),Node(-1,0,0),Node(0,-1,0))
+    count = 0
     while Q.empty() != True:
         Vn = Q.get()
         for i in range(0,4):
@@ -72,12 +81,24 @@ def BFS(Vs,Ve,outMaze):
                 print("Find the end point (%d,%d)!"%(Vw.x,Vw.y))
                 return True
             if  isValid(Vw):
-                Vw.value = visitied[Vw.x][Vw.y].value
-                if Vw.value != 1:
-                    if  Vw.hadVisited != True:
+                Vw.isWall = visitied[Vw.x][Vw.y].isWall
+                if Vw.isWall != True:
+                    if  visitied[Vw.x][Vw.y].hadVisited != True:
                         Q.put(Vw)
                         Vw.hadVisited = True
+                        Vw.value = count
                         visitied[Vw.x][Vw.y] = Vw
+                        count += 1
+
+                        printString = str()
+                        for i in range(0,len(outMaze)):
+                            Varray = outMaze[i]
+                            for j in range(0,len(Varray)):
+                                V = Varray[j]
+                                printString += str(V.printSelf()) + ' '
+                            printString += '\n'
+                        print("Step:\n")
+                        print(printString)
 
     else:
         print("WTF! No result!")
