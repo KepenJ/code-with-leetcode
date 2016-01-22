@@ -2,7 +2,7 @@ __author__ = 'KepenJ'
 # -*- coding: UTF-8 -*-
 
 '''
-Question : DFS
+Question : Combinatorial question
 use 1~9 to put in box,get the true value.
 [][][] + [][][] = [][][]
 
@@ -11,7 +11,6 @@ In put:
 1~9
 
 Out put:
-
 true value.
 
 124 + 659 = 783
