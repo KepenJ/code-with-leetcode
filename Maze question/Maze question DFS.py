@@ -33,7 +33,6 @@ destination_x = 4
 destination_y = 4
 start_x = 0
 start_y = 0
-
 maze = (
     (0, 1, 0, 0, 0),
     (0, 1, 0, 1, 0),
@@ -42,11 +41,15 @@ maze = (
     (0, 0, 0, 1, 0),
 )
 way = [[0]*5 for row in range(5)]
+min_way_num = 99999
 
 def dfs (x,y,step):
     next = ((1,0),(0,1),(-1,0),(0,-1))
     if  x == destination_x and y == destination_y:
-        print(step)
+        global min_way_num
+        if step < min_way_num:
+            min_way_num = step
+            print(step)
         return
     for i in range(0,4):
         p_x = x + next[i][0]
