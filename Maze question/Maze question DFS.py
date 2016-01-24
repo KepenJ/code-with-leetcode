@@ -48,15 +48,15 @@ def dfs (x,y,step):
     if  x == destination_x and y == destination_y:
         print(step)
         return
-    for i in range(4):
+    for i in range(0,4):
         p_x = x + next[i][0]
         p_y = y + next[i][1]
-        if  p_x < 1 or p_y < 1 or p_x > 5 or p_y > 5:
+        if  p_x < 0 or p_y < 0 or p_x > 4 or p_y > 4:
             continue
-    if  maze[p_x][p_y] == 0 and way[p_x][p_y] == 0:
-        way[p_x][p_y] = 1
-        dfs(p_x,p_y,step+1)
-        way[p_x][p_y] = 0
+        if  maze[p_x][p_y] == 0 and way[p_x][p_y] == 0:
+            way[p_x][p_y] = 1
+            dfs(p_x,p_y,step+1)
+            way[p_x][p_y] = 0
     return
 
 
