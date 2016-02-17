@@ -48,7 +48,6 @@ def dfs(start_x,start_y):
             if tx != 0 and ty != 0 and tx != 3 and ty != 3:
                 box[tx][ty] = 1
                 dfs(tx,ty)
-
     return
 
 if __name__ == '__main__':
@@ -67,8 +66,6 @@ if __name__ == '__main__':
             if input_map[i][j] != 'X':
                 box[i][j] = 1
                 dfs(i,j)
-
-
 
     print("Out put:")
     print()
