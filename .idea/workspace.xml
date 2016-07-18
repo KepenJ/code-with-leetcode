@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff30ee2-6041-4717-b9ca-dad9ac180bfa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plus one/Pluse_one.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pascal's Triangle/Pascal_triangle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pascal's Triangle/Pascal_triangle_2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeWithLeetcode.iws" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pluse_one.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Plus one/Pluse_one.py">
+      <file leaf-file-name="Pascal_triangle_2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pascal's Triangle/Pascal_triangle_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,6 +54,8 @@
         <option value="$PROJECT_DIR$/Remove Duplicates from Sorted Array/Remove_duplicates_from_sorted_arrray.py" />
         <option value="$PROJECT_DIR$/Remove Duplicates from Sorted Array/Remove_duplicates_from_sorted_arrray_2.py" />
         <option value="$PROJECT_DIR$/Plus one/Pluse_one.py" />
+        <option value="$PROJECT_DIR$/Pascal's Triangle/Pascal_triangle.py" />
+        <option value="$PROJECT_DIR$/Pascal's Triangle/Pascal_triangle_2.py" />
       </list>
     </option>
   </component>
@@ -171,6 +174,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Pascal's Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeWithLeetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeWithLeetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Maze question" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -214,24 +231,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.Pluse_one">
-    <configuration default="false" name="Remove_element" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Remove Element" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeWithLeetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Remove Element/Remove_element.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Pascal_triangle_2">
     <configuration default="false" name="Remove_duplicates_from_sorted_arrray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,6 +279,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CodeWithLeetcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Plus one/Pluse_one.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pascal_triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pascal's Triangle" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeWithLeetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pascal's Triangle/Pascal_triangle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pascal_triangle_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pascal's Triangle" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeWithLeetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pascal's Triangle/Pascal_triangle_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -417,18 +451,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.Remove_element" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Remove_duplicates_from_sorted_arrray" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Remove_duplicates_from_sorted_arrray_2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Pluse_one" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.Remove_duplicates_from_sorted_arrray" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Remove_duplicates_from_sorted_arrray_2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Pluse_one" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Pascal_triangle" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Pascal_triangle_2" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Pluse_one" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Remove_duplicates_from_sorted_arrray_2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Remove_duplicates_from_sorted_arrray" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Remove_element" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Pascal_triangle_2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Pascal_triangle" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Pluse_one" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Remove_duplicates_from_sorted_arrray_2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Remove_duplicates_from_sorted_arrray" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +509,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -546,8 +584,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Plus one/Pluse_one.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pascal's Triangle/Pascal_triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pascal's Triangle/Pascal_triangle_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
