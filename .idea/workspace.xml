@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff30ee2-6041-4717-b9ca-dad9ac180bfa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Search Insert Position/Search_insert_position.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Search for a Range/Search_for_a_range.py" afterPath="$PROJECT_DIR$/Search for a Range/Search_for_a_range.py" />
     </list>
     <ignored path="CodeWithLeetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Search_for_a_range.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Search for a Range/Search_for_a_range.py">
+      <file leaf-file-name="Search_insert_position.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Search Insert Position/Search_insert_position.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state relative-caret-position="525">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -72,6 +72,7 @@
         <option value="$PROJECT_DIR$/Palindrome Number/Palindrome_number.py" />
         <option value="$PROJECT_DIR$/Search a 2D Matrix/Search_a_2d_matrix.py" />
         <option value="$PROJECT_DIR$/Search for a Range/Search_for_a_range.py" />
+        <option value="$PROJECT_DIR$/Search Insert Position/Search_insert_position.py" />
       </list>
     </option>
   </component>
@@ -174,6 +175,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Search Insert Position" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeWithLeetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code-with-leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Palindrome Number" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -237,24 +252,7 @@
       <recent name="$PROJECT_DIR$/Sum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Search_for_a_range">
-    <configuration default="false" name="Find Minimum in Rotated Sorted Array_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Find Minimum in Rotated Sorted Array" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeWithLeetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Find Minimum in Rotated Sorted Array/Find Minimum in Rotated Sorted Array_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Search_insert_position">
     <configuration default="false" name="Largest_rectangle_in_histogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,6 +317,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CodeWithLeetcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search for a Range/Search_for_a_range.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Search_insert_position" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search Insert Position" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeWithLeetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search Insert Position/Search_insert_position.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -458,19 +473,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Find Minimum in Rotated Sorted Array_2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Largest_rectangle_in_histogram" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Palindrome_number" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Search_a_2d_matrix" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Search_for_a_range" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Largest_rectangle_in_histogram" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Palindrome_number" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Search_a_2d_matrix" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Search_for_a_range" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Search_insert_position" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Search_for_a_range" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Search_a_2d_matrix" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Palindrome_number" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Largest_rectangle_in_histogram" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Find Minimum in Rotated Sorted Array_2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Search_insert_position" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Search_for_a_range" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Search_a_2d_matrix" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Palindrome_number" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Largest_rectangle_in_histogram" />
       </list>
     </recent_temporary>
   </component>
@@ -737,8 +752,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Search for a Range/Search_for_a_range.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search Insert Position/Search_insert_position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding />
         </state>
       </provider>
