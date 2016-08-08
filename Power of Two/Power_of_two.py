@@ -4,6 +4,7 @@ __author__ = 'KepenJ'
 '''
 Given an integer, write a function to determine if it is a power of two.
 '''
+import ctypes
 def power_of_two(num):
     if num < 0:
         return False
@@ -19,4 +20,4 @@ def power_of_two(num):
 
 
 if __name__ == '__main__':
-    print power_of_two(8)
+    print power_of_two((ctypes.c_uint32(8).value))
