@@ -80,6 +80,23 @@ def min_depth(root):
     depth(root,d)
     return num
 
+def max_travel(root):
+    if root == None:
+        return
+    num = -sys.maxsize-1
+    travel(root,1)
+    return num
+
+def travel(node,level):
+    global num
+    if  node.left != None and node.right != None:
+        num = max(num,level)
+        return
+    if  node.left:
+        travel(node.left,level+1)
+    if  node.right:
+        travel(node.right,level+1)
+
 def depth(node,n):
     global num
     if (node.left == None and node.right == None):
@@ -102,4 +119,5 @@ if __name__ == '__main__':
     rb = BinaryTree()
     rb.makeTree(3, None, None)
     r.makeTree(1, ra, rb)
-    min_depth(r.root)
+    # min_depth(r.root)
+    max_travel(r.root)
