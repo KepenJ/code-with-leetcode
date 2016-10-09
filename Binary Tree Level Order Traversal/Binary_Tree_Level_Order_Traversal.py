@@ -1,15 +1,28 @@
 __author__ = 'KepenJ'
 # -*- coding: UTF-8 -*-
 
+'''
+Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
+
+For example: Given binary tree {3,9,20,#,#,15,7},
+
+    3
+   / \
+  9  20
+    /  \
+   15   7
+
+return its level order traversal as:
+
+[
+  [3],
+  [9,20],
+  [15,7]
+]
 
 '''
-Given a binary tree, find its maximum depth.
 
-The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
-
-'''
 import sys
-
 class BinaryTreeNode:
     def __init__(self, data, left, right):
         self.left = left
@@ -68,54 +81,40 @@ class BinaryTree:
                 r = None
             else:
                 r = q.delete()
-global num
-def min_depth(root):
-    global num
-    if root == None:
+
+def get_heigh(r):
+    heigh = 0
+    if  r == None:
+        return heigh
+    leff = get_heigh(r.root.left)
+    right = get_heigh(r.root.right)
+    if leff > right:
+        heigh = leff+1
+    else:
+        heigh = right+1
+    return heigh
+
+def solution(array,r,level):
+    if  r == None:
         return
-    num = sys.maxsize
-    d = 1
-    depth(root,d)
-    return num
+    array[level].append(r.root.data)
+    solution(array,r.root.left,level+1)
+    solution(array,r.root.right,level+1)
 
-def max_travel(root):
-    if root == None:
-        return
-    num = -sys.maxsize-1
-    travel(root,1)
-    return num
-
-def travel(node,level):
-    global num
-    if  node.left != None and node.right != None:
-        num = max(num,level)
-        return
-    if  node.left:
-        travel(node.left,level+1)
-    if  node.right:
-        travel(node.right,level+1)
-
-def depth(node,n):
-    global num
-    if (node.left == None and node.right == None):
-        num = min(num,n)
-        return
-
-    if (node.left):
-        n += 1
-        depth(node.left,n)
-        n -= 1
-
-    if (node.right):
-        n += 1
-        depth(node.right,n)
-        n -= 1
 if __name__ == '__main__':
-    r = BinaryTree()
-    ra = BinaryTree()
-    ra.makeTree(2, None, None)
-    rb = BinaryTree()
-    rb.makeTree(3, None, None)
-    r.makeTree(1, ra, rb)
-    # min_depth(r.root)
-    max_travel(r.root)
+    r_1 = BinaryTree()
+    r_1.makeTree(7,None,None)
+    r_2 = BinaryTree()
+    r_2.makeTree(15,None,None)
+    r_3 = BinaryTree()
+    r_3.makeTree(20,r_2,r_1)
+    r_4 = BinaryTree()
+    r_4.makeTree(9,None,None)
+    r_5 = BinaryTree()
+    r_5.makeTree(3,r_4,r_3)
+    heigh = get_heigh(r_5)
+    if heigh != 0:
+        array = [([]*2) for i in range(heigh)]
+        solution(array,r_5,0)
+        for i in range(len(array)):
+            print array[i]
