@@ -11,15 +11,6 @@ For example: Given binary tree {3,9,20,#,#,15,7},
   9  20
     /  \
    15   7
-
-return its level order traversal as:
-
-[
-  [3],
-  [9,20],
-  [15,7]
-]
-
 '''
 
 import sys
@@ -93,13 +84,40 @@ def get_heigh(r):
     else:
         heigh = right+1
     return heigh
+'''
 
-def solution(array,r,level):
+return its level order traversal as:
+
+[
+  [3],
+  [9,20],
+  [15,7]
+]
+
+'''
+def solution_1(array,r,level):
     if  r == None:
         return
     array[level].append(r.root.data)
-    solution(array,r.root.left,level+1)
-    solution(array,r.root.right,level+1)
+    solution_1(array,r.root.left,level+1)
+    solution_1(array,r.root.right,level+1)
+
+'''
+return its level order traversal as:
+
+[
+  [15,7],
+  [9,20],
+  [3]
+]
+
+'''
+def solution_2(array,r,level):
+    if  r == None:
+        return
+    array[level].append(r.root.data)
+    solution_2(array,r.root.left,level-1)
+    solution_2(array,r.root.right,level-1)
 
 if __name__ == '__main__':
     r_1 = BinaryTree()
@@ -113,8 +131,20 @@ if __name__ == '__main__':
     r_5 = BinaryTree()
     r_5.makeTree(3,r_4,r_3)
     heigh = get_heigh(r_5)
+
     if heigh != 0:
+        print "Question 1:"
         array = [([]*2) for i in range(heigh)]
-        solution(array,r_5,0)
+        solution_1(array,r_5,0)
         for i in range(len(array)):
             print array[i]
+
+        print ""
+        print "Question 2:"
+        array_1 = [([]*2) for i in range(heigh)]
+        solution_2(array_1,r_5,heigh-1)
+        for i in range(len(array_1)):
+            print array_1[i]
+
+
+
