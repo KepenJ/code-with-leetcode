@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff30ee2-6041-4717-b9ca-dad9ac180bfa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Same Tree/Same_Tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Symmetric Tree/Symmetric_Tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Balanced Binary Tree/Balanced_Binary_Tree.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeWithLeetcode.iws" />
@@ -25,21 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Symmetric_Tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Symmetric Tree/Symmetric_Tree.py">
+      <file leaf-file-name="Balanced_Binary_Tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Balanced Binary Tree/Balanced_Binary_Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="135" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Same_Tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Same Tree/Same_Tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -93,11 +82,12 @@
         <option value="$PROJECT_DIR$/Binary Tree Level Order Traversal/Binary_Tree_Level_Order_Traversal.py" />
         <option value="$PROJECT_DIR$/Symmetric Tree/Symmetric_Tree.py" />
         <option value="$PROJECT_DIR$/Same Tree/Same_Tree.py" />
+        <option value="$PROJECT_DIR$/Balanced Binary Tree/Balanced_Binary_Tree.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
+    <option name="x" value="528" />
     <option name="y" value="23" />
     <option name="width" value="1237" />
     <option name="height" value="777" />
@@ -257,6 +247,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeWithLeetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code-with-leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Balanced Binary Tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -274,24 +278,7 @@
       <recent name="$PROJECT_DIR$/Sum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Same_Tree">
-    <configuration default="false" name="Power_of_two" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Power of Two" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeWithLeetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Power of Two/Power_of_two.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Balanced_Binary_Tree">
     <configuration default="false" name="Maximum_Depth_of_Binary_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,6 +343,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CodeWithLeetcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Same Tree/Same_Tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Balanced_Binary_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Balanced Binary Tree" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeWithLeetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Balanced Binary Tree/Balanced_Binary_Tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -495,19 +499,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Power_of_two" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Maximum_Depth_of_Binary_Tree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Binary_Tree_Level_Order_Traversal" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Symmetric_Tree" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Same_Tree" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Maximum_Depth_of_Binary_Tree" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Binary_Tree_Level_Order_Traversal" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Symmetric_Tree" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Same_Tree" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Balanced_Binary_Tree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Same_Tree" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Symmetric_Tree" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Binary_Tree_Level_Order_Traversal" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Maximum_Depth_of_Binary_Tree" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Power_of_two" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Balanced_Binary_Tree" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Same_Tree" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Symmetric_Tree" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Binary_Tree_Level_Order_Traversal" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Maximum_Depth_of_Binary_Tree" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +532,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1237" height="777" extended-state="0" />
+    <frame x="528" y="23" width="1237" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25626516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -540,7 +544,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30508474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30508474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -589,13 +593,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Missing Number/Missing_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Missing Number/Missing_number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -876,14 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Tree Level Order Traversal/Binary_Tree_Level_Order_Traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="131" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8395">
@@ -902,8 +891,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Same Tree/Same_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        <state relative-caret-position="374">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary Tree Level Order Traversal/Binary_Tree_Level_Order_Traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Balanced Binary Tree/Balanced_Binary_Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
