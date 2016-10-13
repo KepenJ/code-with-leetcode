@@ -125,10 +125,11 @@ def solution_postorder(r):
     node_stack.append(r)
     while   len(node_stack) != 0:
         node_1 = node_stack.pop()
-        if (node_1.root.left == None and node_1.root.right == None)or(node != None and (node.root.left or node.root.right)):
+        if  (node_1.root.left == None and node_1.root.right == None)or(node != None and (node == node_1.root.left or node == node_1.root.right)):
             result_array.append(node_1.root.data)
             node = node_1
         else:
+            node_stack.append(node_1)
             if  node_1.root.right != None:
                 node_stack.append(node_1.root.right)
             if  node_1.root.left != None:
