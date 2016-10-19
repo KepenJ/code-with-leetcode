@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff30ee2-6041-4717-b9ca-dad9ac180bfa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Binary Tree Depth Order Traversal/Binary_Tree_Depth_Order_Traversal.py" afterPath="$PROJECT_DIR$/Binary Tree Depth Order Traversal/Binary_Tree_Depth_Order_Traversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeWithLeetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Binary_Tree_Depth_Order_Traversal.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Binary Tree Depth Order Traversal/Binary_Tree_Depth_Order_Traversal.py">
+      <file leaf-file-name="Populating_Next_Right_Pointers_in_Each_Node.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+            <state relative-caret-position="252">
+              <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -78,13 +79,14 @@
         <option value="$PROJECT_DIR$/Construct Binary Tree from Inorder and Postorder Traversal/Construct Binary Tree_from_Inorder_and_Postorder_Traversal.py" />
         <option value="$PROJECT_DIR$/BinaryTree.py" />
         <option value="$PROJECT_DIR$/Maximum Depth of Binary Tree/Maximum_Depth_of_Binary_Tree.py" />
-        <option value="$PROJECT_DIR$/Binary Tree Level Order Traversal/Binary_Tree_Level_Order_Traversal.py" />
         <option value="$PROJECT_DIR$/Symmetric Tree/Symmetric_Tree.py" />
         <option value="$PROJECT_DIR$/Same Tree/Same_Tree.py" />
         <option value="$PROJECT_DIR$/Balanced Binary Tree/Balanced_Binary_Tree.py" />
         <option value="$PROJECT_DIR$/Path Sum/Path_Sum.py" />
         <option value="$PROJECT_DIR$/Path Sum/Binary_Tree_Depth_Order_Traversal.py" />
         <option value="$PROJECT_DIR$/Binary Tree Depth Order Traversal/Binary_Tree_Depth_Order_Traversal.py" />
+        <option value="$PROJECT_DIR$/Binary Tree Level Order Traversal/Binary_Tree_Level_Order_Traversal.py" />
+        <option value="$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py" />
       </list>
     </option>
   </component>
@@ -117,8 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,6 +176,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Power of Two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeWithLeetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code-with-leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Populating Next Right Pointers in Each Node" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,6 +307,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,41 +324,7 @@
       <recent name="$PROJECT_DIR$/Sum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Binary_Tree_Depth_Order_Traversal">
-    <configuration default="false" name="Symmetric_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Symmetric Tree" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeWithLeetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Symmetric Tree/Symmetric_Tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Same_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Same Tree" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CodeWithLeetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Same Tree/Same_Tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Populating_Next_Right_Pointers_in_Each_Node">
     <configuration default="false" name="Balanced_Binary_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -390,6 +372,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CodeWithLeetcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Binary Tree Depth Order Traversal/Binary_Tree_Depth_Order_Traversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Binary_Tree_Level_Order_Traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Binary Tree Level Order Traversal" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeWithLeetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Binary Tree Level Order Traversal/Binary_Tree_Level_Order_Traversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Populating_Next_Right_Pointers_in_Each_Node" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Populating Next Right Pointers in Each Node" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CodeWithLeetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -529,19 +545,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Symmetric_Tree" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Same_Tree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Balanced_Binary_Tree" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Path_Sum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Binary_Tree_Depth_Order_Traversal" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Balanced_Binary_Tree" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Path_Sum" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Binary_Tree_Depth_Order_Traversal" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Binary_Tree_Level_Order_Traversal" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Populating_Next_Right_Pointers_in_Each_Node" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Binary_Tree_Depth_Order_Traversal" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Path_Sum" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Populating_Next_Right_Pointers_in_Each_Node" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Binary_Tree_Level_Order_Traversal" />
         <item index="2" class="java.lang.String" itemvalue="Python.Balanced_Binary_Tree" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Same_Tree" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Symmetric_Tree" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Binary_Tree_Depth_Order_Traversal" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Path_Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -574,7 +590,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30278885" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22974768" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -618,18 +634,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Missing Number/Missing_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Power of Two/Power_of_two.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -866,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Power of Two/Power_of_two.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Missing Number/Missing_number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -889,19 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8395">
-          <caret line="937" column="0" selection-start-line="937" selection-start-column="0" selection-end-line="937" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Symmetric Tree/Symmetric_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="135" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,15 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="84" column="22" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Balanced Binary Tree/Balanced_Binary_Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,22 +916,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Binary Tree Level Order Traversal/Binary_Tree_Level_Order_Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Power of Two/Power_of_two.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Balanced Binary Tree/Balanced_Binary_Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Binary Tree Depth Order Traversal/Binary_Tree_Depth_Order_Traversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+        <state relative-caret-position="152">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="150" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="937" column="0" selection-start-line="937" selection-start-column="0" selection-end-line="937" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
           <folding />
         </state>
       </provider>
