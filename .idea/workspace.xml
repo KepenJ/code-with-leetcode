@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff30ee2-6041-4717-b9ca-dad9ac180bfa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Convert Sorted List or Array to Binary Search Tree/Convert_Sorted_List_or_Array_to_Binary_Search_Tree.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeWithLeetcode.iws" />
@@ -24,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Populating_Next_Right_Pointers_in_Each_Node.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Populating_Next_Right_Pointers_in_Each_Node.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+            <state relative-caret-position="282">
+              <caret line="138" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Convert_Sorted_List_or_Array_to_Binary_Search_Tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Convert Sorted List or Array to Binary Search Tree/Convert_Sorted_List_or_Array_to_Binary_Search_Tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="243" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,6 +97,7 @@
         <option value="$PROJECT_DIR$/Binary Tree Depth Order Traversal/Binary_Tree_Depth_Order_Traversal.py" />
         <option value="$PROJECT_DIR$/Binary Tree Level Order Traversal/Binary_Tree_Level_Order_Traversal.py" />
         <option value="$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py" />
+        <option value="$PROJECT_DIR$/Convert Sorted List or Array to Binary Search Tree/Convert_Sorted_List_or_Array_to_Binary_Search_Tree.py" />
       </list>
     </option>
   </component>
@@ -246,6 +257,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Maximum Depth of Binary Tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeWithLeetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code-with-leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Convert Sorted List or Array to Binary Search Tree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -641,18 +666,11 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Power of Two/Power_of_two.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sum/Sum_3_closest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -961,8 +979,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Populating Next Right Pointers in Each Node/Populating_Next_Right_Pointers_in_Each_Node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+        <state relative-caret-position="282">
+          <caret line="138" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Convert Sorted List or Array to Binary Search Tree/Convert_Sorted_List_or_Array_to_Binary_Search_Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="243" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
           <folding />
         </state>
       </provider>
